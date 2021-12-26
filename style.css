@@ -1,0 +1,68 @@
+@media(max-width: 992px){
+    .menu-{
+        display: flex;
+    }
+}
+.hidden-nav{
+    visibility: hidden;
+}
+.cars-detailes{
+    width: 100%;
+    height: 14rem;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:  #727376;
+}
+h2{
+    margin: 0;
+}
+.cars-more{
+    width: 100%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.cars-more-1{
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top:1rem ;
+    padding-bottom: 1rem;
+    text-align: center;
+    border: solid #335b4c 0.2rem;
+
+    
+    
+    background-color: #335b4c ;
+    color: #fff;
+    margin: 0.4rem;
+    font-size: 0.8rem;
+
+}
+.cars-more-2{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top:1rem ;
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+    background-color: #fff ;
+    color: #335b4c;
+    border: solid #335b4c 0.2rem;
+    margin: 0.4rem;
+
+}
+.carousel .left > i,
+.carousel .right > i {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel .right > i {
+  left: auto;
+  right: 20px;
+}
