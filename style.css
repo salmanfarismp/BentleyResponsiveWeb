@@ -57,7 +57,7 @@
     visibility: hidden;
 }
 body{
-    height: 600rem;
+    height: 140rem;
     
 }
 
@@ -70,6 +70,8 @@ body{
     flex-direction: column;
     justify-content: center;
     color:  #727376;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 h2{
     margin: 0;
